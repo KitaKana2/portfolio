@@ -93,10 +93,19 @@ img {
   line-height: 1.2;
   margin-right: 20px;
   letter-spacing: .05em;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo a {
   color: #333;
+}
+
+.header-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .gnav-list {
